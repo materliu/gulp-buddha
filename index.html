@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Gulp-buddha by materliu</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/materliu/gulp-buddha">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Gulp-buddha</h1>
+            <h2>Buddha&#39;s grace illuminates code as sunshine</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/materliu/gulp-buddha/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/materliu/gulp-buddha/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="gulp-buddha-" class="anchor" href="#gulp-buddha-" aria-hidden="true"><span class="octicon octicon-link"></span></a>gulp-buddha <a href="https://travis-ci.org/materliu/gulp-buddha"><img src="https://travis-ci.org/materliu/gulp-buddha.svg?branch=master" alt="Build Status"></a>
+</h1>
+
+<blockquote>
+<p>My awesome gulp plugin</p>
+</blockquote>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<div class="highlight highlight-sh"><pre>$ npm install --save-dev gulp-buddha</pre></div>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-js"><pre><span class="pl-s">var</span> gulp <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>gulp<span class="pl-pds">'</span></span>);
+<span class="pl-s">var</span> buddha <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>gulp-buddha<span class="pl-pds">'</span></span>);
+
+gulp.task(<span class="pl-s1"><span class="pl-pds">'</span>default<span class="pl-pds">'</span></span>, <span class="pl-st">function</span> () {
+    <span class="pl-k">return</span> gulp.<span class="pl-sc">src</span>(<span class="pl-s1"><span class="pl-pds">'</span>src/file.ext<span class="pl-pds">'</span></span>)
+        .pipe(buddha())
+        .pipe(gulp.dest(<span class="pl-s1"><span class="pl-pds">'</span>dist<span class="pl-pds">'</span></span>));
+});</pre></div>
+
+<h2>
+<a id="api" class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
+
+<h3>
+<a id="buddhaoptions" class="anchor" href="#buddhaoptions" aria-hidden="true"><span class="octicon octicon-link"></span></a>buddha(options)</h3>
+
+<h4>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>options</h4>
+
+<h5>
+<a id="foo" class="anchor" href="#foo" aria-hidden="true"><span class="octicon octicon-link"></span></a>foo</h5>
+
+<p>Type: <code>boolean</code><br>
+Default: <code>false</code></p>
+
+<p>Lorem ipsum.</p>
+
+<h2>
+<a id="release-history" class="anchor" href="#release-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release History</h2>
+
+<p>2014-12-21   v0.0.1   not published</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT © <a href="https://github.com/materliu">materliu</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/materliu">materliu</a> can be found on <a href="https://github.com/materliu/gulp-buddha">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
